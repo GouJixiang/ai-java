@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: yangxy
+    password: 745700Yxy@
+    url: jdbc:mysql://127.0.0.1:3306/ai?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver

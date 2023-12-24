@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: true
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+occn:
+  token:
+    # 密钥
+    secret: d0d3c9456907475b5e25d4abac92c15e9e848148d67a32f3886c23a27a8053421
+    # token过期时间（单位：分钟）
+    expiration: 30
+    # RefreshToken过期时间（单位：分钟）
+    refresh_expiration: 10080
